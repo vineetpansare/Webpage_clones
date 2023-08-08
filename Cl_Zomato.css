@@ -1,0 +1,165 @@
+*{
+
+}
+
+.hero-img{
+    height: 420px;
+    width: 100%;
+    background-size: cover;
+    padding: 8px;
+}
+
+.head{
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 0.5rem;
+  font-family:Helvetica, sans-serif;
+  padding-left: 60px;
+  height: 10px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.app{   
+    padding-right: 400px;
+    font-size: 0.8rem;
+    margin: 20px;
+}
+
+/** logo **/
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.logo{
+    background: transparent;
+    height: 65px;
+    width: 308px;
+    background-size: cover;
+    background-image: url('logo.jpg');
+}
+
+
+.text-contain{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+
+.text{
+    color: white;
+    font: 1.6rem;
+    font-family:'Times New Roman', Times, serif ;
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+/** placeholder **/
+
+.search-container{
+    background-color: #ffffff;
+    height: 12px;
+    padding: 20px;
+    margin: 0px 330px 0px 330px;
+    display: flex;
+    justify-content:flex-start;
+   align-items: center;
+    border-radius: 10px;
+}
+
+.gps-location{
+   position:relative;
+}
+
+.location{
+    border: none;
+    outline: none;
+}
+
+.search{
+    border: none;
+    margin: -7px;
+}
+
+.search-icon{
+    padding: 10px;
+    
+}
+
+.input{
+    border: none;
+    outline: none;   
+}
+
+
+
+.border{
+    border: 2px solid #aaafb5;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding: 10px;
+    margin:10px 10px 10px 0px ;
+}
+
+input{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.box{
+    height: 220px;
+    width: 23%;
+    margin: 20px;
+    margin-top: 10px;
+    padding: 0px 0px 15px;
+    border-radius: 12px;
+    background-color:#ffffff;
+    border: 1px solid grey;
+}
+
+.box-img{
+    height: 150px;
+    background-size:cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.box-content{
+    text-align:left;
+    color: #4f4f4f;
+    font-size: 1.3rem;
+}
+
+.left-text{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: -15px;
+}
+
+ h3{
+    font-size: 20px;
+    font-family:Helvetica, sans-serif;
+    font-weight: 0.5rem;
+    color: #363636;
+}
+
+
+
+
